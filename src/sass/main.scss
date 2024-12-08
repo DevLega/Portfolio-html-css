@@ -7,16 +7,15 @@ body {
   font-family: 'Montserrat';
   margin: 0;
   overflow-x: hidden;
-  background-color: #19191B;
+  background-color: #111827;
 }
 
 .container {
-  width: 1200px;
+  width: 1170px;
   margin: 0px auto;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 //UNTILLS
 @import "./untills/color-styles";

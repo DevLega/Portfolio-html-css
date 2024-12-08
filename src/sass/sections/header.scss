@@ -8,40 +8,39 @@
 .header_logo {
     display: flex;
     align-items: center;
-    width: 132px;
+    width: 96px;
     justify-content: space-between;
     cursor: pointer;
 }
 
 .header_logo img {
     display: block;
-    max-height: 40px;
-    max-width: 40px;
+    max-height: 34.25px;
+    max-width: 34.25px;
 }
 
 .header_logo--text {
     color: white;
     margin: 0;
-    font-weight: 700;
-    font-size: 28px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .header_nav {
-    width: 401px;
+    width: 656px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    .active {
-        color: #5454D4;
-        font-weight: 600;
-    }
+    gap: 61px;
 
     a {
         color: white;
         text-decoration: none;
-        font-family: "Nunito Sans", sans-serif;
-        font-size: 18px;
+        font-family: "DM Sans", serif;
+        font-size: 14px;
+        font-weight: 500;
         transition: all ease 0.1s;
     }
 
@@ -52,13 +51,15 @@
 
 .header_button {
     background: none;
-    height: 44px;
-    width: 157px;
-    border: 1px solid white;
+    height: 42px;
+    width: 132px;
+    border: none;
     border-radius: 5px;
+    background: linear-gradient(90deg, rgba(37, 99, 235, 1) 0%, rgba(217, 70, 239, 1) 100%);
 
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 16px;
+    font-family: "DM Sans", serif;
+    font-size: 14px;
+    font-weight: 500;
     color: white;
 
     display: flex;
