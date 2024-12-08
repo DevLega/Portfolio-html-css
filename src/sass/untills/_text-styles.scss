@@ -1,0 +1,243 @@
+// text-styles
+@mixin display1 {
+    font-family: "Montserrat";
+    font-size: 64px;
+    line-height: 140%;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+@mixin display2 {
+    font-family: 'Montserrat';
+    font-size: 56px;
+    line-height: 120%;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+@mixin H1 {
+    font-family: 'Montserrat';
+    font-size: 44px;
+    line-height: 140%;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+@mixin H2 {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    line-height: 140%;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+@mixin H3 {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    line-height: 140%;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+@mixin H4 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 140%;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+@mixin H5 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+@mixin H6 {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+@mixin bodyXL {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 180%;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+@mixin bodyLG {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 180%;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+@mixin bodyMD {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 180%;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+@mixin bodySM {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 180%;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+@mixin bodyXS {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 180%;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+@mixin budyXs-with-underline {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 180%;
+    font-weight: 400;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+@mixin captionLG {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 180%;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+@mixin captionMD {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 180%;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+@mixin captionSM {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    line-height: 180%;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+@mixin buttonLG {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 180%;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+@mixin buttonSM {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 180%;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+@mixin overlineLG {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 180%;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+@mixin overlineSM {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 121%;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+}
+
+@mixin mobileH1 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 140%;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+@mixin mobileH2 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+@mixin mobileH4 {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+@mixin mobileH5 {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 140%;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+
+@mixin mobileBodySM {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 140%;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+@mixin mobileBodyLG {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 180%;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+@mixin mobileBodyMD {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+@mixin mobileBodyXS {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    line-height: 140%;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+@mixin mobileOverline {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    line-height: 140%;
+    font-weight: 800;
+    text-transform: capitalize;
+}

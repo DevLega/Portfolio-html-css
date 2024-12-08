@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat';
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #19191B;
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+//UNTILLS
+@import "./untills/color-styles";
+@import "./untills/text-styles";
+
+//LANDING
+//landing page
+@import "./sections/header";
+@import "./sections/hero.scss";
+@import "./sections/footer.scss";
+
+//PAYMENT
+
+//ADAPTIVE
